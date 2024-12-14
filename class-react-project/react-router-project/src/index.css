@@ -1,0 +1,15 @@
+body{
+    font-family: cursive;
+}
+ul{
+    background-color: rgb(10 9 9 / 24%);
+    list-style: none;
+    display: flex
+;
+    justify-content: center;
+    gap: 88px;
+    height: 50px;
+    align-items: center;
+    font-size: 23px;
+    color: #e4e3e3;
+}

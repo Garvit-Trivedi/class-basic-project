@@ -1,0 +1,231 @@
+/* body{
+  background-image: url(https://fitfoodiefinds.com/wp-content/uploads/2024/04/Healthy-College-Meals-683x1024.png);
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #f7f7f7, #fff);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  .search-input:focus {
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  
+  .search-button {
+    position: absolute;
+    right: 5px;
+    top:30%;
+    padding: 12px 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+  }
+  
+  .search-button i {
+    font-size: 18px;
+  }
+  
+
+.menu-container {
+    padding: 2rem;
+}
+
+.menu-list {
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    gap: 4rem;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.menu-item:hover{
+  scale: 0.1;
+}
+
+.menu-item img {
+    height: 230px;
+    width: 250px;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.menu-item p {
+    margin: 0.5rem 0;
+    color: #666;
+} */
+
+
+
+
+
+
+
+body {
+  background-image: url(https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #f7f7f7, #fff);
+  transition: all 0.3s ease-in-out;
+}
+
+.search-input:focus {
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.search-button {
+  position: absolute;
+  right: 5px;
+  top: 30%;
+  padding: 12px 15px;
+  background-color: #212a34;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.search-button i {
+  font-size: 18px;
+}
+h2{
+  color: rgb(255, 247, 247);
+  font-size: 30px;
+}
+.menu-container {
+  background-image: url(https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg);
+  padding: 2rem;
+}
+
+.menu-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+  height: 230px;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover img {
+  transform: scale(1.1);
+}
+
+.menu-item h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover h3 {
+  color: #007bff;
+}
+
+.menu-item p {
+  margin: 0.5rem 0;
+  color: #666;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover p {
+  color: #333;
+}
+
